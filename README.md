@@ -59,7 +59,3 @@ With the same settings, the SCF should converge within a few steps to the total 
 ## Note on the inputs
 
 The `&PROPERTIES/&BANDSTRUCTURE/&GW` section of the inputs contains two keywords, `NPARAM_PADE` and `QP_START_DFT`, that come from a locally patched CP2K build and are not part of stock CP2K. Stock CP2K stops at them with "unknown keyword". They affect only the analytic continuation of the GW self-energy, not the SCF or the wavefunctions.
-
-## Reference
-
-M. J. van Setten et al., "GW100: Benchmarking G0W0 for Molecular Systems", J. Chem. Theory Comput. 11, 5665 (2015).
